@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/mars', function (req, res) {
-  res.send('Hello mars!\n');
+  res.send('Marte é um lugar legal para viver!\n');
 });
 
 app.get('/Saturno', function (req, res) {
