@@ -1,6 +1,6 @@
-drop table if exists contacts;
+drop table if exists contactsdb;
 
-create table contacts(id serial primary key,firstname varchar(30) not null,lastname varchar(30) not null, email varchar(30) not null);
+create table contactsdb(id serial primary key,firstname varchar(30) not null,lastname varchar(30) not null, email varchar(30) not null);
 
 insert into contacts(firstname, lastname, email) values
   ('Bilbo','Baggins','bilbo@theshire.com'),
